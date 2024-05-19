@@ -43,9 +43,9 @@ int main() {
     cout << "Kalimat : ";
     getline(cin, str);
     if (Palindrom(str)) {
-        cout << "Kalimat "<<str<<" adalah Polindrom" << endl;
+        cout << "Kalimat "<<str<<" adalah Palindrom" << endl;
     } else {
-        cout << "Kalimat "<<str<<" bukan Polindrom"<< endl;
+        cout << "Kalimat "<<str<<" bukan Palindrom"<< endl;
     }
     return 0;
 }
